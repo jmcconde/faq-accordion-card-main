@@ -3,7 +3,7 @@
     --clr-soft-red: hsl(14, 88%, 65%);
     --clr-soft-violet:  hsl(273, 75%, 66%);
     --clr-soft-blue: hsl(240, 73%, 65%);
-    --clr-dark-greyish-blue: hsl(237, 12%, 33%);
+    --clr-very-dark-greyish-blue: hsl(237, 12%, 33%);
     --clr-dark-greyish-blue: hsl(240, 6%, 50%);
     --clr-light-greyish-blue: hsl(240, 5%, 91%);
     
@@ -120,6 +120,7 @@ body {
 .title {
     text-align: center;
     font-weight: var(--fw-bold);
+    color: var(--clr-dark-saturated-blue);
     font-size: 2rem;
     margin-bottom: 1rem;
 }
@@ -139,14 +140,15 @@ body {
     cursor: pointer;
 }
 
-
 .accordion-item-title {
     font-size: 14px;
+    color: var(--clr-very-dark-greyish-blue);
     transition: color .2s ease-in-out;
 }
 
 .accordion-item-title.bold {
     font-weight: var(--fw-bold);
+    color: var(--clr-dark-saturated-blue);
 }
 
 .accordion-item-text {
